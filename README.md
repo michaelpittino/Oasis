@@ -26,3 +26,6 @@ I'm very happy about contributions!
 to the team from [OpenDesertProject](https://github.com/blackdesert/DesertProject) for the great research work,  
 to [Yotri](https://github.com/Yothri) for his [tools](https://github.com/BlackDesertTools/aio),  
 to [joarley](https://github.com/joarley) for the v97+ cryptography
+
+# License
+MIT
