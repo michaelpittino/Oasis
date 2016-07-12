@@ -2,9 +2,12 @@
 Oasis is a (small) set of tools to analyze network traffic from the game `Black Desert Online`.  
 It currently consists of the `Oasis` proxy project and the `Launcher` project.
 
+This is a *work in progress* project. Many features are not finished/implemented!
+
 ## Oasis proxy
 The `Oasis` proxy is a program that intercepts the traffic between the game client and the game server.  
-Modifying the network traffic is currently not possible. Therefore `Oasis` does *currently* only log auth server traffic.
+Modifying the network traffic is currently not possible. Therefore `Oasis` does *currently* only log auth server traffic.  
+For each session the proxy creates a directory in the `session` folder in which it stores packet logs.
 
 ## Launcher
 The `Launcher` is a small little tool to automate the boot up process of the game. It grabs an auth- and play token from the
